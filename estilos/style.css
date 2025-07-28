@@ -131,7 +131,7 @@ video{
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(250, 250, 251, 0.8);
+    background-color: rgba(250, 250, 251, 0.4);
    
 }
 
@@ -172,6 +172,7 @@ h2, strong,h3{
     width: 100%;
     position: relative;
     text-align: left;
+    margin-bottom: 5rem;
 }
 
 
@@ -198,4 +199,23 @@ h2, strong,h3{
     left: 0;
     background-color: rgba(250, 250, 251, 0.8);
   
+}
+
+#heiki-cromoterapia{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(./../img/reiki-cromoteraia.jpg);
+    background-size: cover;
+}
+
+#heiki-cromoterapia::before{
+   content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(250, 250, 251, 0.5);
+     
 }
